@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Portifólio">
+    <meta property="og:description" content="Veja meus projetos!!!">
+    <meta property="og:image" content="">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/output.css">
+    <link rel="stylesheet" href="styles/style.css">
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <title>Portifólio</title>
+</head>
+<body>
+
+      <!-- HEADER -->
+      <header id="cabecalho" class="w-full my-4">
+        <nav class="container flex items-center justify-between">
+            <div id="logo" data-aos="fade-right" data-aos-duration="1000">
+                <h1 class="text-4xl">Diego Flausino</h1>
+            </div>
+
+            <div id="menu" class="flex gap-4 text-xl text-gray-500" data-aos="fade-left" data-aos-duration="1000">
+                <a href="">Projetos</a>
+                <a href="">Formação</a>
+                <a href="">Contatos</a>
+            </div>
+        </nav>
+      </header>
+      
+      <!-- Perfil -->
+      <section id="perfil" class="w-full mt-12">
+        <div class="container border-b-2 border-black pb-20 grid grid-cols-1 md:grid-cols-12">
+            <div class="col-span-4" data-aos="flip-left" data-aos-duration="1500">
+                <img 
+                 class="rounded-full overflow-hidden" 
+                 src="/assets/foto.jpg" 
+                 alt="Foto de Perfil">
+            </div>
+
+            <div class="col-span-8 mt-12 pl-6">
+                <h1 class="text-5xl font-bold uppercase my-4" data-aos="fade-right" data-aos-duration="1000">Desenvolvedor <br> Front End.</h1>
+                <p>Sou um estudante apaixonado por tecnologia, atualmente, aluno do 5° semestre de Análise e Desenvolvimento de Sistemas. E tenho o sonho de viver dessa área. Por isso estou em busca de conhecimento prático, para assim evoluir e entrar “de cabeça” neste mercado.</p>
+
+                <div id="botoes" class="mt-8 flex gap-4">
+                    <a class="btn" href="https://github.com/diegoflausino45" data-aos="zoom-in" data-aos-duration="400" data-aos-delay="200"><i class="fa-brands fa-github"></i>GitHub</a>
+                    <a class="btn" href="/assets/Currículo.pdf" data-aos="zoom-in" data-aos-duration="400" data-aos-delay="350"><i class="fa-solid fa-file" aria-hidden="true"></i>Currículo</a>
+                    <a class="btn" href="https://www.linkedin.com/in/diego-flausino/" data-aos="zoom-in" data-aos-duration="400" data-aos-delay="500"><i class="fa-brands fa-linkedin" aria-hidden="true"></i>Linkedin</a>
+                </div>
+            </div>
+        </div>
+      </section>
+
+      <!-- Projetos -->
+      <section id="projetos" class="w-full my-24">
+        <div class="container">
+            <h1 class="text-3xl border-b inline-block uppercase font-bold border-black">Projetos</h1>
+            <!--Projeto 01-->
+            <div class="projeto grid grid-cols-1 md:grid-cols-12 mt-6 mb-12">
+                
+                <div class="texto-projeto col-span-6" data-aos="fade-right">
+                    <h2 class="font-bold text-xl">Game Mata Mosquito</h2>
+                    <p class="py-4">Jogo de navegador do curso de JavaScript do jorge Sant'Ana, codificado por mim utilizando <strong>JavaScript, HTML e CSS</strong>. Artes por Jorge Sant'Ana </p>
+
+                    <div class="tecnologias flex gap-4 font-bold mt-6">
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>JavaScript</span>
+                    </div>
+
+                    <div class="icones flex gap-4 font-bold mt-6">
+                        <a href="https://app-mata-mosquito-tawny.vercel.app/" class="overflow-hidden rounded-full border-2 border-black hover:bg-black hover:text-white" target="_blank"><i class="p-2 fa-regular fa-eye"></i></a>
+                        <a href="https://github.com/diegoflausino45/AppMataMosquito" class="overflow-hidden rounded-full border-2 border-black hover:bg-black hover:text-white" target="_blank"><i class="p-2 fa-solid fa-code"></i></a>
+                        <a href=""></a>
+                    </div>
+                </div>
+
+                <div class="img-projeto col-span-6 ml-auto" data-aos="zoom-in">
+                    <a href="https://app-mata-mosquito-tawny.vercel.app/" target="_blank">
+                        <img  
+                         class="w-[400px] h-[270px] sombra transform hover:scale-110 transition duration-500" 
+                         src="/assets/GameMataMosquito.png" 
+                         alt="Foto Game Mata Mosquito"
+                         >
+                    </a>
+                </div>
+            </div>
+            <!--Projeto 02-->
+            <div class="projeto grid grid-cols-1 md:grid-cols-12 mt-6 mb-12">
+                
+                <div class="img-projeto col-span-6" data-aos="zoom-in">
+                    <a href="https://barbearia-ecru-zeta.vercel.app/" target="_blank">
+                        <img  
+                         class="w-[400px] h-[270px] sombra transform hover:scale-110 transition duration-500" 
+                         src="/assets/Barbearia.png" 
+                         alt="Foto Game Mata Mosquito"
+                         >
+                    </a>
+                </div>
+
+                <div class="texto-projeto col-span-6" data-aos="fade-left">
+                    <h2 class="font-bold text-xl">Barbearia</h2>
+                    <p class="py-4">Landing Page desenvolvida por mim utilizando <strong>JavaScript, SASS, HTML e CSS</strong></p>
+
+                    <div class="tecnologias flex gap-4 font-bold mt-6">
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>SASS</span>
+                        <span>JavaScript</span>
+                    </div>
+
+                    <div class="icones flex gap-4 font-bold mt-6">
+                        <a href="https://barbearia-ecru-zeta.vercel.app/" class="overflow-hidden rounded-full border-2 border-black hover:bg-black hover:text-white" target="_blank"><i class="p-2 fa-regular fa-eye"></i></a>
+                        <a href="https://github.com/diegoflausino45/Barbearia" class="overflow-hidden rounded-full border-2 border-black hover:bg-black hover:text-white" target="_blank"><i class="p-2 fa-solid fa-code"></i></a>
+                        <a href=""></a>
+                    </div>
+                </div>
+
+            </div>
+            <!--Projeto 03-->
+            <div class="projeto grid grid-cols-1 md:grid-cols-12 mt-6 mb-12">
+                
+                <div class="texto-projeto col-span-6" data-aos="fade-right">
+                    <h2 class="font-bold text-xl">Cardápio</h2>
+                    <p class="py-4">Projeto de menu online com integração a api do whatsapp. Desenvolvido utilizando habilidades em <strong>HTML, CSS, TailWindCss e JavaScript.</strong> </p>
+
+                    <div class="tecnologias flex gap-4 font-bold mt-6">
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>TailWindCss</span>
+                        <span>JavaScript</span>
+                    </div>
+
+                    <div class="icones flex gap-4 font-bold mt-6" >
+                        <a href="https://projeto-cardapio-ecru-two.vercel.app/" class="overflow-hidden rounded-full border-2 border-black hover:bg-black hover:text-white" target="_blank"><i class="p-2 fa-regular fa-eye"></i></a>
+                        <a href="https://github.com/diegoflausino45/Projeto-Cardapio" class="overflow-hidden rounded-full border-2 border-black hover:bg-black hover:text-white" target="_blank"><i class="p-2 fa-solid fa-code"></i></a>
+                        <a href=""></a>
+                    </div>
+                </div>
+
+                <div class="img-projeto col-span-6 ml-auto" data-aos="zoom-in">
+                    <a href="https://projeto-cardapio-ecru-two.vercel.app/" target="_blank">
+                        <img  
+                         class="w-[400px] h-[270px] sombra transform hover:scale-110 transition duration-500" 
+                         src="/assets/Cardapio.png" 
+                         alt="Foto Game Mata Mosquito"
+                         >
+                    </a>
+                </div>
+            </div>
+            <!--Projeto 04-->
+            <div class="projeto grid grid-cols-1 md:grid-cols-12 mt-6 mb-12">
+                
+                <div class="img-projeto col-span-6" data-aos="zoom-in">
+                    <a href="https://app-mata-mosquito-tawny.vercel.app/" target="_blank">
+                        <img  
+                        class="w-[400px] h-[270px] sombra transform hover:scale-110 transition duration-500" 
+                        src="/assets/portfolio.png" 
+                        alt="Foto Game Mata Mosquito"
+                        >
+                    </a>
+                </div>
+
+                <div class="texto-projeto col-span-6" data-aos="fade-left">
+                    <h2 class="font-bold text-xl">Portfólio</h2>
+                    <p class="py-4">Site pessoal para apresentar meus principais projetos. Foi desenvolvido com <strong>HTML, CSS, TailWindCss e JavaScript.</strong> </p>
+
+                    <div class="tecnologias flex gap-4 font-bold mt-6">
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>TailWindCss</span>
+                        <span>JavaScript</span>
+                    </div>
+
+                    <div class="icones flex gap-4 font-bold mt-6">
+                        <a href="https://app-mata-mosquito-tawny.vercel.app/" class="overflow-hidden rounded-full border-2 border-black hover:bg-black hover:text-white" target="_blank"><i class="p-2 fa-regular fa-eye"></i></a>
+                        <a href="https://github.com/diegoflausino45/AppMataMosquito" class="overflow-hidden rounded-full border-2 border-black hover:bg-black hover:text-white" target="_blank"><i class="p-2 fa-solid fa-code"></i></a>
+                        <a href=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+
+      <!-- Formação -->
+       <section id="formacao" class="w-full pt-16 pb-12 bg-zinc-800">
+        <div class="container">
+            <h1 class="text-7xl font-bold text-gray-700 py-8">Formação<span class="text-blue-600">.</span></h1>
+
+            <div class="grid grid-cols-1 md:grid-cols-12 text-white">
+                <div class="col-span-6 bg-zinc-950 p-4 rounded m-3">
+                    <h2 class="text-xl">Técnologo</h2>
+                    <p class="py-2">Análise e Desenvolvimento de Sistemas - FATEC Professor Antônio Seabra</p>
+                    <p>2022 - 2024</p>
+                </div>
+                <div class="col-span-6 bg-zinc-950 p-4 rounded m-3">
+                    <h2 class="text-xl">Técnico</h2>
+                    <p class="py-2">Desenvolvimento de Sistemas - ETEC Helcy Moreira Martins Aguiar</p>
+                    <p>2020 - 2021</p>
+                </div>
+                <div class="col-span-6 bg-zinc-950 p-4 rounded m-3">
+                    <h2 class="text-xl">Ensino Médio</h2>
+                    <p class="py-2">Ensino Médio Regular - ETEC Helcy Moreira Martins Aguiar</p>
+                    <p>2019 - 2021</p>
+                </div>
+            </div>
+        </div>
+       </section>
+
+       <!-- Skills -->
+       <section id="skills" class="w-full pt-6 bg-zinc-800 text-white">
+        <div class="container pl-12">
+            <h3 class="font-bold border-l-blue-600 border-l px-1 mb-2 text-xl">Hard Skills</h3>
+            <div class="pl-2 pb-16 grid gird cols-1 md:grid-cols-9">
+                <div class="col-span-3 flex flex-col  gap-3 text-xl">
+                    <span>HTML5</span>
+                    <span>CSS3</span>
+                    <span>TailWindCss</span>
+                </div>
+                <div class="col-span-3 flex flex-col  gap-3 text-xl">
+                    <span>Bootstrap</span>
+                    <span>Figma</span>
+                    <span>Sass</span>
+                    
+                </div>
+                <div class="col-span-3 flex flex-col  gap-3 text-xl">
+                    <span>JavaScript</span>
+                    <span>Jquery</span>
+                </div>
+            </div>
+            <h3 class="font-bold border-l-blue-600 border-l px-1 mb-2 text-xl">Soft Skills</h3>
+            <div class="pl-2 pb-16 grid gird cols-1 md:grid-cols-9">
+                <div class="col-span-3 flex flex-col text-xl gap-3">
+                    <span>Trabalho em Equipe</span>
+                    <span>Resolução de Problemas</span>
+                    <span>Agilidade de Aprendizado</span>
+                </div>
+                <div class="col-span-3 flex flex-col text-xl gap-3">
+                    <span>Boa Comunicação</span>
+                    <span>Curiosidade</span>
+                    <span>Criatividade</span>
+                </div>
+                <div class="col-span-3 flex flex-col text-xl gap-3">
+                    <span>Flexibilidade</span>
+                </div>
+            </div>
+
+            <h3 class="font-bold border-l-blue-600 border-l px-1 mb-2 text-xl">Idiomas</h3>
+            <div class="pl-2 pb-16">
+                <div class="flex flex-col text-xl gap-3">
+                    <span><strong>Inglês</strong>/ Intermediário</span>
+                    <span><strong>Espanhol</strong>/ Básico</span>
+                </div>
+            </div>
+        </div>
+       </section>
+
+       <!-- Rodapé -->
+        <footer id="rodape" class="w-full bg-black text-white">
+            <div class="container grid grid-cols-1 md:grid-cols-12 py-16 px-28 p-5">
+                <div class="col-span-6 ml-12">
+                    <p>Estou diponível para novos projetos.</p>
+                    <p>Entre em contato e marcamos uma conversa.</p>
+                </div>
+                <div class="col-span-6 flex-col flex gap-3">
+                    <a href=""><i class="fa-regular fa-envelope"></i> diegocflausino@gmail.com</a>
+                    <a href=""><i class="fa-solid fa-phone"></i> (14)99775-4810</a>
+                </div>
+            </div>
+        </footer>
+
+        <section class="fixed bottom-3 right-3">
+            <img id="inicio" src="./assets/foguete.png" class="w-[80px] h-[80px] cursor-pointer" alt="">
+        </section>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
