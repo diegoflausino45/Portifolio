@@ -13,6 +13,18 @@ body{
     margin: auto;
 }
 
+@media screen and (max-width: 768px){
+    html{overflow-x: hidden;}
+    .container{
+        width: 90%;
+        margin: auto;
+    }
+    body{
+        font: 16px 'Times new roman';
+        overflow-x: hidden;
+    }
+}
+
 p{
     letter-spacing: 2px;
 }
