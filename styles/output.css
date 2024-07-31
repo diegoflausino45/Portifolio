@@ -1454,6 +1454,14 @@ video {
   gap: 1rem;
 }
 
+.gap-1 {
+  gap: 0.25rem;
+}
+
+.gap-2 {
+  gap: 0.5rem;
+}
+
 .space-x-2 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 0;
   margin-right: calc(0.5rem * var(--tw-space-x-reverse));
@@ -2887,6 +2895,10 @@ p{
 
   .md\:justify-start {
     justify-content: flex-start;
+  }
+
+  .md\:gap-4 {
+    gap: 1rem;
   }
 
   .md\:pb-20 {
