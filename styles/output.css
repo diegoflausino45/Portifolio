@@ -2188,6 +2188,11 @@ video {
   line-height: 1;
 }
 
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
@@ -2196,11 +2201,6 @@ video {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
-}
-
-.text-base {
-  font-size: 1rem;
-  line-height: 1.5rem;
 }
 
 .font-bold {
@@ -2710,7 +2710,7 @@ p{
   letter-spacing: 4px;
   border: 1px solid black;
   border-radius: 10px;
-  padding: 10px 12px;
+  padding: 10px 8px;
 }
 
 .btn:hover{
