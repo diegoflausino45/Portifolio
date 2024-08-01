@@ -8,10 +8,23 @@ body{
     overflow-x: hidden;
 }
 
+.lightMode{
+    background-color: white;
+}
+
+.darkMode{
+    background-color: #212121;
+}
+
+.text-black{
+    color: black;
+}
+
 .container{
     width: 65%;
     margin: auto;
 }
+
 
 @media screen and (max-width: 768px){
     html{
@@ -45,6 +58,19 @@ p{
     animation: translateY 0.5s alternate infinite;
 }
 
+.btn1{
+    letter-spacing: 4px;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 10px 8px;
+}
+
+.btn1:hover{
+    background-color: white;
+    color: black;
+    animation: translateY 0.5s alternate infinite;
+}
+
 @keyframes translateY {
     from{
         transform: translateY(0);
@@ -56,4 +82,8 @@ p{
 
 .sombra{
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.459);
+}
+
+.sombra1{
+    box-shadow: 5px 5px 5px rgba(232, 232, 232, 0.495);
 }
