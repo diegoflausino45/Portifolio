@@ -1,89 +1,98 @@
+@charset "UTF-8";
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
 /*Estrutura da página*/
-body{
-    font: 16px 'Times new roman';
+body {
+  font: 16px "Times new roman";
+  overflow-x: hidden;
+}
+
+.lightMode {
+  background-color: white;
+}
+
+.darkMode {
+  background-color: #212121;
+}
+
+.text-black {
+  color: black;
+}
+
+.container {
+  width: 65%;
+  margin: auto;
+}
+
+@media screen and (max-width: 768px) {
+  html {
     overflow-x: hidden;
-}
-
-.lightMode{
-    background-color: white;
-}
-
-.darkMode{
-    background-color: #212121;
-}
-
-.text-black{
-    color: black;
-}
-
-.container{
-    width: 65%;
+  }
+  .container {
+    width: 90%;
     margin: auto;
+  }
+  body {
+    font: 16px "Times new roman";
+    overflow-x: hidden;
+  }
+  .card-text {
+    display: none;
+  }
+}
+p {
+  letter-spacing: 2px;
 }
 
-
-@media screen and (max-width: 768px){
-    html{
-        overflow-x: hidden;
-    }
-    .container{
-        width: 90%;
-        margin: auto;
-    }
-    body{
-        font: 16px 'Times new roman';
-        overflow-x: hidden;
-    }
-
+.btn {
+  letter-spacing: 4px;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px 8px;
 }
 
-p{
-    letter-spacing: 2px;
+.btn:hover {
+  background-color: black;
+  color: white;
+  animation: translateY 0.5s alternate infinite;
 }
 
-.btn{
-    letter-spacing: 4px;
-    border: 1px solid black;
-    border-radius: 10px;
-    padding: 10px 8px;
+.btn1 {
+  letter-spacing: 4px;
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 10px 8px;
 }
 
-.btn:hover{
-    background-color: black;
-    color: white;
-    animation: translateY 0.5s alternate infinite;
-}
-
-.btn1{
-    letter-spacing: 4px;
-    border: 1px solid white;
-    border-radius: 10px;
-    padding: 10px 8px;
-}
-
-.btn1:hover{
-    background-color: white;
-    color: black;
-    animation: translateY 0.5s alternate infinite;
+.btn1:hover {
+  background-color: white;
+  color: black;
+  animation: translateY 0.5s alternate infinite;
 }
 
 @keyframes translateY {
-    from{
-        transform: translateY(0);
-    }
-    to{
-        transform: translateY(-8px);
-    }
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-8px);
+  }
+}
+.sombra {
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.459);
 }
 
-.sombra{
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.459);
+.sombra1 {
+  box-shadow: 5px 5px 5px rgba(232, 232, 232, 0.495);
 }
 
-.sombra1{
-    box-shadow: 5px 5px 5px rgba(232, 232, 232, 0.495);
+.card-hover:hover .card-text {
+  visibility: visible;
+  opacity: 1;
+}
+
+.card-text {
+  bottom: -3em;
+  visibility: hidden;
 }
