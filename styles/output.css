@@ -2983,12 +2983,32 @@ p {
     height: 320px;
   }
 
+  .md\:h-\[880px\]{
+    height: 880px;
+  }
+
+  .md\:h-\[0px\]{
+    height: 0px;
+  }
+
   .md\:w-40{
     width: 10rem;
   }
 
   .md\:w-\[320px\]{
     width: 320px;
+  }
+
+  .md\:w-\[200px\]{
+    width: 200px;
+  }
+
+  .md\:w-\[250px\]{
+    width: 250px;
+  }
+
+  .md\:w-\[300px\]{
+    width: 300px;
   }
 
   .md\:grid-cols-12{
