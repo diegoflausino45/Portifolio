@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,7 +10,9 @@
     <meta property="og:description" content="Veja meus projetos!!!">
     <meta property="og:image" content="https://portifolio-kappa-orcin.vercel.app/assets/portfolio.png">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <link rel="stylesheet" href="styles/output.css">
@@ -18,64 +21,72 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <title>Portifólio</title>
 </head>
+
 <body id="body" class="lightMode">
 
-      <!-- HEADER -->
-      <header id="cabecalho" class="w-full py-4 mudarTexto">
+    <!-- HEADER -->
+    <header id="cabecalho" class="w-full py-4 mudarTexto">
         <nav class="container flex items-center justify-between">
             <div id="logo" data-aos="fade-right" data-aos-duration="1000">
                 <h1 class="text-base md:text-4xl">Diego Flausino</h1>
             </div>
 
-            <div id="menu" class="flex gap-2 md:gap-4 text-xs md:text-xl text-gray-500" data-aos="fade-left" data-aos-duration="1000">
+            <div id="menu" class="flex gap-2 md:gap-4 text-xs md:text-xl text-gray-500" data-aos="fade-left"
+                data-aos-duration="1000">
                 <a id="nav-projetos" class="hover:text-gray-700" href="#">Projetos</a>
-                <a id="nav-formacao"  class="hover:text-gray-700" href="#">Formação</a>
-                <a id="nav-contatos"  class="hover:text-gray-700" href="#">Contatos</a>
+                <a id="nav-formacao" class="hover:text-gray-700" href="#">Formação</a>
+                <a id="nav-contatos" class="hover:text-gray-700" href="#">Contatos</a>
             </div>
         </nav>
-      </header>
-      
-      <!-- Perfil -->
-      <section id="perfil" class="w-full mt-12 mudarTexto">
+    </header>
+
+    <!-- Perfil -->
+    <section id="perfil" class="w-full mt-12 mudarTexto">
         <div class="mudarBorda container border-b-2 border-black pb-12 md:pb-20 grid grid-cols-1 md:grid-cols-12">
-            <div class="card-hover flex justify-center md:col-span-4 md:inline-block md:justify-start" data-aos="flip-left" data-aos-duration="1500">
+            <div class="card-hover flex justify-center md:col-span-4 md:inline-block md:justify-start"
+                data-aos="flip-left" data-aos-duration="1500">
                 <img id="fotoPerfil"
-                 class="rounded-full cursor-pointer transform hover:scale-110 transition duration-500 flex w-[250px] h-[250px] md:w-[320px] md:h-[320px] overflow-hidden" 
-                 src="/assets/foto.jpg" 
-                 alt="Foto de Perfil">
-                 <span class="card-text invisible  bg-gray-600 text-white rounded md:absolute p-3">Clique na imagem</span>
+                    class="rounded-full cursor-pointer transform hover:scale-110 transition duration-500 flex w-[250px] h-[250px] md:w-[320px] md:h-[320px] overflow-hidden"
+                    src="/assets/foto.jpg" alt="Foto de Perfil">
+                <span class="card-text invisible  bg-gray-600 text-white rounded md:absolute p-3">Clique na
+                    imagem</span>
             </div>
 
             <div class="md:col-span-8 md:mt-12 md:pl-6">
-                <h1 class="text-3xl text-center md:text-start md:text-5xl font-bold uppercase my-4" data-aos="fade-right" data-aos-duration="1000">Desenvolvedor <br> Front End.</h1>
-                <p class="md:mt-0 mt-12 md:text-justify text-justify">Sou um estudante apaixonado por tecnologia, atualmente, aluno do 6° semestre de Análise e Desenvolvimento de Sistemas. E tenho o sonho de viver dessa área. Por isso estou em busca de conhecimento prático, para assim evoluir e entrar “de cabeça” neste mercado.</p>
+                <h1 class="text-3xl text-center md:text-start md:text-5xl font-bold uppercase my-4"
+                    data-aos="fade-right" data-aos-duration="1000">Desenvolvedor <br> Front End.</h1>
+                <p class="md:mt-0 mt-12 md:text-justify text-justify">Sou um estudante apaixonado por tecnologia, atualmente no 6° semestre de Análise e Desenvolvimento de Sistemas. Tenho experiência em projetos front-end, utilizando tecnologias como HTML, CSS, TailwindCSS, SASS, JavaScript e React. Atualmente, estou buscando expandir meus conhecimentos em Node.js e MongoDB para complementar meu conjunto de habilidades. </p>
 
                 <div id="botoes" class="mt-8 flex md:justify-start justify-center gap-4 text-center text-xs md:text-xl">
-                    <a class="btn botao  w-28 md:w-40" href="https://github.com/diegoflausino45" target="_blank" data-aos="zoom-in" data-aos-duration="250" data-aos-delay="200"><i class="fa-brands fa-github block md:inline-block"></i>GitHub</a>
-                    <a class="btn botao w-28 md:w-40" href="/assets/Currículo.pdf" target="_blank" data-aos="zoom-in" data-aos-duration="250" data-aos-delay="350"><i class="fa-solid fa-file block md:inline-block" aria-hidden="true"></i>Currículo</a>
-                    <a class="btn botao w-28 md:w-40" href="https://www.linkedin.com/in/diego-flausino/" target="_blank" data-aos="zoom-in" data-aos-duration="250" data-aos-delay="500"><i class="fa-brands fa-linkedin block md:inline-block" aria-hidden="true"></i>Linkedin</a>
+                    <a class="btn botao  w-28 md:w-40" href="https://github.com/diegoflausino45" target="_blank"
+                        data-aos="zoom-in" data-aos-duration="250" data-aos-delay="200"><i
+                            class="fa-brands fa-github block md:inline-block"></i>GitHub</a>
+                    <a class="btn botao w-28 md:w-40" href="/assets/Currículo.pdf" target="_blank" data-aos="zoom-in"
+                        data-aos-duration="250" data-aos-delay="350"><i class="fa-solid fa-file block md:inline-block"
+                            aria-hidden="true"></i>Currículo</a>
+                    <a class="btn botao w-28 md:w-40" href="https://www.linkedin.com/in/diego-flausino/" target="_blank"
+                        data-aos="zoom-in" data-aos-duration="250" data-aos-delay="500"><i
+                            class="fa-brands fa-linkedin block md:inline-block" aria-hidden="true"></i>Linkedin</a>
                 </div>
             </div>
         </div>
-      </section>
+    </section>
 
-      <!-- Projetos -->
-      <section id="projetos" class="w-full my-12 md:my-24 mudarTexto">
+    <!-- Projetos -->
+    <section id="projetos" class="w-full my-12 md:my-24 mudarTexto">
         <div class="container">
             <h1 class="mudarBorda text-3xl border-b inline-block uppercase font-bold border-black">Projetos</h1>
             <!--Projeto 01-->
             <div class="projeto grid grid-cols-1 md:grid-cols-12 mt-6 mb-12">
-                
+
                 <div class="texto-projeto col-span-6" data-aos="fade-right">
                     <h2 class="font-bold text-xl">Game Mata Mosquito</h2>
                     <a href="https://app-mata-mosquito-tawny.vercel.app/" target="_blank" class="md:hidden ">
-                        <img  
-                         class="img-projeto w-[300px] h-[170px] sombra transform hover:scale-110 transition duration-500" 
-                         src="/assets/GameMataMosquito.png" 
-                         alt="Foto Game Mata Mosquito"
-                         >
+                        <img class="img-projeto w-[300px] h-[170px] sombra transform hover:scale-110 transition duration-500"
+                            src="/assets/GameMataMosquito.png" alt="Foto Game Mata Mosquito">
                     </a>
-                    <p class="py-4">Jogo de navegador do curso de JavaScript do jorge Sant'Ana, codificado por mim utilizando <strong>JavaScript, HTML e CSS</strong>. Artes por Jorge Sant'Ana </p>
+                    <p class="py-4">Jogo de navegador do curso de JavaScript do jorge Sant'Ana, codificado por mim
+                        utilizando <strong>JavaScript, HTML e CSS</strong>. Artes por Jorge Sant'Ana </p>
 
                     <div class="tecnologias flex gap-4 font-bold mt-3 md:mt-6">
                         <span>HTML5</span>
@@ -84,45 +95,42 @@
                     </div>
 
                     <div class="icones flex gap-4 font-bold mt-6">
-                        <a href="https://app-mata-mosquito-tawny.vercel.app/" class="overflow-hidden mudarIcon rounded-full border-2 border-black hover:bg-black hover:text-white" target="_blank"><i class="p-2 fa-regular fa-eye"></i></a>
-                        <a href="https://github.com/diegoflausino45/AppMataMosquito" class="overflow-hidden mudarIcon rounded-full border-2 border-black hover:bg-black hover:text-white" target="_blank"><i class="p-2 fa-solid fa-code"></i></a>
+                        <a href="https://app-mata-mosquito-tawny.vercel.app/"
+                            class="overflow-hidden mudarIcon rounded-full border-2 border-black hover:bg-black hover:text-white"
+                            target="_blank"><i class="p-2 fa-regular fa-eye"></i></a>
+                        <a href="https://github.com/diegoflausino45/AppMataMosquito"
+                            class="overflow-hidden mudarIcon rounded-full border-2 border-black hover:bg-black hover:text-white"
+                            target="_blank"><i class="p-2 fa-solid fa-code"></i></a>
                         <a href=""></a>
                     </div>
                 </div>
 
                 <div class="col-span-6 ml-auto hidden md:inline-block" data-aos="zoom-in">
                     <a href="https://app-mata-mosquito-tawny.vercel.app/" target="_blank">
-                        <img  
-                         class="img-projeto w-[400px] h-[270px] sombra transform hover:scale-110 transition duration-500" 
-                         src="/assets/GameMataMosquito.png" 
-                         alt="Foto Game Mata Mosquito"
-                         >
+                        <img class="img-projeto w-[400px] h-[270px] sombra transform hover:scale-110 transition duration-500"
+                            src="/assets/GameMataMosquito.png" alt="Foto Game Mata Mosquito">
                     </a>
                 </div>
             </div>
             <!--Projeto 02-->
             <div class="projeto grid grid-cols-1 md:grid-cols-12 mt-6 mb-12">
-                
-                <div class="col-span-6 hidden md:inline-block" data-aos="zoom-in" data-aos-anchor-placement="bottom-bottom">
+
+                <div class="col-span-6 hidden md:inline-block" data-aos="zoom-in"
+                    data-aos-anchor-placement="bottom-bottom">
                     <a href="https://barbearia-ecru-zeta.vercel.app/" target="_blank">
-                        <img  
-                         class="img-projeto w-[400px] h-[270px] sombra transform hover:scale-110 transition duration-500" 
-                         src="/assets/Barbearia.png" 
-                         alt="Foto Projeto Barbearia"
-                         >
+                        <img class="img-projeto w-[400px] h-[270px] sombra transform hover:scale-110 transition duration-500"
+                            src="/assets/Barbearia.png" alt="Foto Projeto Barbearia">
                     </a>
                 </div>
 
                 <div class="texto-projeto col-span-6" data-aos="fade-left">
                     <h2 class="font-bold text-xl">Barbearia</h2>
                     <a href="https://barbearia-ecru-zeta.vercel.app/" target="_blank" class="md:hidden">
-                        <img  
-                         class="img-projeto w-[300px] h-[170px] sombra transform hover:scale-110 transition duration-500" 
-                         src="/assets/Barbearia.png" 
-                         alt="Foto Projeto Barbearia"
-                         >
+                        <img class="img-projeto w-[300px] h-[170px] sombra transform hover:scale-110 transition duration-500"
+                            src="/assets/Barbearia.png" alt="Foto Projeto Barbearia">
                     </a>
-                    <p class="py-4">Landing Page desenvolvida por mim utilizando <strong>JavaScript, SASS, HTML e CSS</strong></p>
+                    <p class="py-4">Landing Page desenvolvida por mim utilizando <strong>JavaScript, SASS, HTML e
+                            CSS</strong></p>
 
                     <div class="tecnologias flex gap-4 font-bold mt-3 md:mt-6">
                         <span>HTML5</span>
@@ -132,8 +140,12 @@
                     </div>
 
                     <div class="icones flex gap-4 font-bold mt-6">
-                        <a href="https://barbearia-ecru-zeta.vercel.app/" class="overflow-hidden mudarIcon rounded-full border-2 border-black hover:bg-black hover:text-white" target="_blank"><i class="p-2 fa-regular fa-eye"></i></a>
-                        <a href="https://github.com/diegoflausino45/Barbearia" class="overflow-hidden mudarIcon rounded-full border-2 border-black hover:bg-black hover:text-white" target="_blank"><i class="p-2 fa-solid fa-code"></i></a>
+                        <a href="https://barbearia-ecru-zeta.vercel.app/"
+                            class="overflow-hidden mudarIcon rounded-full border-2 border-black hover:bg-black hover:text-white"
+                            target="_blank"><i class="p-2 fa-regular fa-eye"></i></a>
+                        <a href="https://github.com/diegoflausino45/Barbearia"
+                            class="overflow-hidden mudarIcon rounded-full border-2 border-black hover:bg-black hover:text-white"
+                            target="_blank"><i class="p-2 fa-solid fa-code"></i></a>
                         <a href=""></a>
                     </div>
                 </div>
@@ -141,65 +153,15 @@
             </div>
             <!--Projeto 03-->
             <div class="projeto grid grid-cols-1 md:grid-cols-12 mt-6 mb-12">
-                
+
                 <div class="texto-projeto col-span-6" data-aos="fade-right">
                     <h2 class="font-bold text-xl">Cardápio</h2>
                     <a href="https://projeto-cardapio-ecru-two.vercel.app/" target="_blank" class="md:hidden">
-                        <img  
-                         class="img-projeto w-[300px] h-[170px] sombra transform hover:scale-110 transition duration-500" 
-                         src="/assets/Cardapio.png" 
-                         alt="Foto Projeto Cardapio"
-                         >
+                        <img class="img-projeto w-[300px] h-[170px] sombra transform hover:scale-110 transition duration-500"
+                            src="/assets/Cardapio.png" alt="Foto Projeto Cardapio">
                     </a>
-                    <p class="py-4">Projeto de menu online com integração a api do whatsapp. Desenvolvido utilizando habilidades em <strong>HTML, CSS, TailWindCss e JavaScript.</strong> </p>
-
-                    <div class="tecnologias flex gap-4 font-bold mt-3 md:mt-6">
-                        <span>HTML5</span>
-                        <span>CSS3</span>
-                        <span>TailWindCss</span>
-                        <span>JavaScript</span>
-                    </div>
-
-                    <div class="icones flex gap-4 font-bold mt-6" >
-                        <a href="https://projeto-cardapio-ecru-two.vercel.app/" class="overflow-hidden mudarIcon rounded-full border-2 border-black hover:bg-black hover:text-white" target="_blank"><i class="p-2 fa-regular fa-eye"></i></a>
-                        <a href="https://github.com/diegoflausino45/Projeto-Cardapio" class="overflow-hidden mudarIcon rounded-full border-2 border-black hover:bg-black hover:text-white" target="_blank"><i class="p-2 fa-solid fa-code"></i></a>
-                        <a href=""></a>
-                    </div>
-                </div>
-
-                <div class="col-span-6 ml-auto hidden md:inline-block" data-aos="zoom-in" data-aos-anchor-placement="bottom-bottom">
-                    <a href="https://projeto-cardapio-ecru-two.vercel.app/" target="_blank">
-                        <img  
-                         class="img-projeto w-[400px] h-[270px] sombra transform hover:scale-110 transition duration-500" 
-                         src="/assets/Cardapio.png" 
-                         alt="Foto Projeto Cardapio"
-                         >
-                    </a>
-                </div>
-            </div>
-            <!--Projeto 04-->
-            <div class="projeto grid grid-cols-1 md:grid-cols-12 mt-6 mb-12">
-                
-                <div class="col-span-6 hidden md:inline-block" data-aos="zoom-in" data-aos-anchor-placement="bottom-bottom">
-                    <a href="https://portifolio-kappa-orcin.vercel.app/" target="_self">
-                        <img  
-                        class="img-projeto w-[400px] h-[270px] sombra transform hover:scale-110 transition duration-500" 
-                        src="/assets/portfolio.png" 
-                        alt="Foto Projeto Portifolio"
-                        >
-                    </a>
-                </div>
-
-                <div class="texto-projeto col-span-6" data-aos="fade-left">
-                    <h2 class="font-bold text-xl">Portfólio</h2>
-                    <a href="https://portifolio-kappa-orcin.vercel.app/" target="_self" class="md:hidden">
-                        <img  
-                        class="img-projeto w-[300px] h-[170px] sombra transform hover:scale-110 transition duration-500" 
-                        src="/assets/portfolio.png" 
-                        alt="Foto Projeto Portifolio"
-                        >
-                    </a>
-                    <p class="py-4">Site pessoal para apresentar meus principais projetos. Foi desenvolvido com <strong>HTML, CSS, TailWindCss e JavaScript.</strong> </p>
+                    <p class="py-4">Projeto de menu online com integração a api do whatsapp. Desenvolvido utilizando
+                        habilidades em <strong>HTML, CSS, TailWindCss e JavaScript.</strong> </p>
 
                     <div class="tecnologias flex gap-4 font-bold mt-3 md:mt-6">
                         <span>HTML5</span>
@@ -209,19 +171,70 @@
                     </div>
 
                     <div class="icones flex gap-4 font-bold mt-6">
-                        <a href="https://portifolio-kappa-orcin.vercel.app/" class="overflow-hidden mudarIcon rounded-full border-2 border-black hover:bg-black hover:text-white" target="_self"><i class="p-2 fa-regular fa-eye"></i></a>
-                        <a href="https://github.com/diegoflausino45/Portifolio" class="overflow-hidden mudarIcon rounded-full border-2 border-black hover:bg-black hover:text-white" target="_blank"><i class="p-2 fa-solid fa-code"></i></a>
+                        <a href="https://projeto-cardapio-ecru-two.vercel.app/"
+                            class="overflow-hidden mudarIcon rounded-full border-2 border-black hover:bg-black hover:text-white"
+                            target="_blank"><i class="p-2 fa-regular fa-eye"></i></a>
+                        <a href="https://github.com/diegoflausino45/Projeto-Cardapio"
+                            class="overflow-hidden mudarIcon rounded-full border-2 border-black hover:bg-black hover:text-white"
+                            target="_blank"><i class="p-2 fa-solid fa-code"></i></a>
+                        <a href=""></a>
+                    </div>
+                </div>
+
+                <div class="col-span-6 ml-auto hidden md:inline-block" data-aos="zoom-in"
+                    data-aos-anchor-placement="bottom-bottom">
+                    <a href="https://projeto-cardapio-ecru-two.vercel.app/" target="_blank">
+                        <img class="img-projeto w-[400px] h-[270px] sombra transform hover:scale-110 transition duration-500"
+                            src="/assets/Cardapio.png" alt="Foto Projeto Cardapio">
+                    </a>
+                </div>
+            </div>
+            <!--Projeto 04-->
+            <div class="projeto grid grid-cols-1 md:grid-cols-12 mt-6 mb-12">
+
+                <div class="col-span-6 hidden md:inline-block" data-aos="zoom-in"
+                    data-aos-anchor-placement="bottom-bottom">
+                    <a href="https://portifolio-kappa-orcin.vercel.app/" target="_self">
+                        <img class="img-projeto w-[400px] h-[270px] sombra transform hover:scale-110 transition duration-500"
+                            src="/assets/portfolio.png" alt="Foto Projeto Portifolio">
+                    </a>
+                </div>
+
+                <div class="texto-projeto col-span-6" data-aos="fade-left">
+                    <h2 class="font-bold text-xl">Portfólio</h2>
+                    <a href="https://portifolio-kappa-orcin.vercel.app/" target="_self" class="md:hidden">
+                        <img class="img-projeto w-[300px] h-[170px] sombra transform hover:scale-110 transition duration-500"
+                            src="/assets/portfolio.png" alt="Foto Projeto Portifolio">
+                    </a>
+                    <p class="py-4">Site pessoal para apresentar meus principais projetos. Foi desenvolvido com
+                        <strong>HTML, CSS, TailWindCss e JavaScript.</strong> </p>
+
+                    <div class="tecnologias flex gap-4 font-bold mt-3 md:mt-6">
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>TailWindCss</span>
+                        <span>JavaScript</span>
+                    </div>
+
+                    <div class="icones flex gap-4 font-bold mt-6">
+                        <a href="https://portifolio-kappa-orcin.vercel.app/"
+                            class="overflow-hidden mudarIcon rounded-full border-2 border-black hover:bg-black hover:text-white"
+                            target="_self"><i class="p-2 fa-regular fa-eye"></i></a>
+                        <a href="https://github.com/diegoflausino45/Portifolio"
+                            class="overflow-hidden mudarIcon rounded-full border-2 border-black hover:bg-black hover:text-white"
+                            target="_blank"><i class="p-2 fa-solid fa-code"></i></a>
                         <a href=""></a>
                     </div>
                 </div>
             </div>
         </div>
-      </section>
+    </section>
 
-      <!-- Formação -->
-       <section id="formacao" class="w-full pt-16 pb-12 bg-zinc-800">
+    <!-- Formação -->
+    <section id="formacao" class="w-full pt-16 pb-12 bg-zinc-800">
         <div class="container">
-            <h1 class="text-5xl md:text-7xl font-bold text-gray-700 py-8">Formação<span class="text-blue-600">.</span></h1>
+            <h1 class="text-5xl md:text-7xl font-bold text-gray-700 py-8">Formação<span class="text-blue-600">.</span>
+            </h1>
 
             <div class="grid grid-cols-1 md:grid-cols-12 text-white">
                 <div class="col-span-6 bg-zinc-950 p-4 rounded m-3">
@@ -241,28 +254,32 @@
                 </div>
             </div>
         </div>
-       </section>
+    </section>
 
-       <!-- Skills -->
-       <section id="skills" class="w-full pt-6 bg-zinc-800 text-white">
+    <!-- Skills -->
+    <section id="skills" class="w-full pt-6 bg-zinc-800 text-white">
         <div class="container md:pl-12 text-xs md:text-xl">
             <h3 class="font-bold border-l-blue-600 border-l px-1 mb-2 text-xl">Hard Skills</h3>
             <div class="pl-2 pb-16 grid grid-cols-2 md:grid-cols-9">
                 <div class="md:col-span-3 flex flex-col gap-3">
                     <span><img src="./assets/icon-html.png" class="inline-block size-5 md:size-8" alt=""> HTML5</span>
                     <span><img src="./assets/icon-css.png" class="inline-block size-5 md:size-8" alt=""> CSS3</span>
-                    <span><img src="./assets/icon-tailwindcss.png" class="inline-block size-5 md:size-8" alt=""> TailWindCss</span>
+                    <span><img src="./assets/icon-tailwindcss.png" class="inline-block size-5 md:size-8" alt="">
+                        TailWindCss</span>
                 </div>
                 <div class="md:col-span-3 flex flex-col gap-3">
-                    <span><img src="./assets/icon-bootstrap.png" class="inline-block size-5 md:size-8" alt=""> Bootstrap</span>
+                    <span><img src="./assets/icon-bootstrap.png" class="inline-block size-5 md:size-8" alt="">
+                        Bootstrap</span>
                     <span><img src="./assets/icon-figma.png" class="inline-block size-5 md:size-8" alt=""> Figma</span>
                     <span><img src="./assets/icon-sass.png" class="inline-block size-5 md:size-8" alt=""> Sass</span>
-                    
+
                 </div>
                 <div class="md:col-span-3 flex flex-col md:mt-0 mt-2 gap-3">
-                    <span><img src="./assets/icon-javascript.png" class="inline-block size-5 md:size-8" alt=""> JavaScript</span>
+                    <span><img src="./assets/icon-javascript.png" class="inline-block size-5 md:size-8" alt="">
+                        JavaScript</span>
                     <span><img src="./assets/icon-git.png" class="inline-block size-5 md:size-8" alt=""> Git</span>
-                    <span><img src="./assets/icon-github.png" class="inline-block size-5 md:size-8" alt=""> GitHub</span>
+                    <span><img src="./assets/icon-github.png" class="inline-block size-5 md:size-8" alt="">
+                        GitHub</span>
                 </div>
             </div>
             <h3 class="font-bold border-l-blue-600 border-l px-1 mb-2 text-xl">Soft Skills</h3>
@@ -285,33 +302,39 @@
             <h3 class="font-bold border-l-blue-600 border-l px-1 mb-2 text-xl">Idiomas</h3>
             <div class="pl-2 pb-16">
                 <div class="flex flex-col gap-3">
-                    <span><img src="./assets/icon-usa.png" class="inline-block size-5 md:size-8" alt=""> <strong>Inglês</strong>/ Intermediário</span>
-                    <span><img src="./assets/icon-espanha.png" class="inline-block size-5 md:size-8" alt=""> <strong>Espanhol</strong>/ Básico</span>
+                    <span><img src="./assets/icon-usa.png" class="inline-block size-5 md:size-8" alt="">
+                        <strong>Inglês</strong>/ Intermediário</span>
+                    <span><img src="./assets/icon-espanha.png" class="inline-block size-5 md:size-8" alt="">
+                        <strong>Espanhol</strong>/ Básico</span>
                 </div>
             </div>
         </div>
-       </section>
+    </section>
 
-       <!-- Contatos -->
-        <footer id="contatos" class="w-full bg-black text-white">
-            <div class="container grid grid-cols-1 md:grid-cols-12 py-16 md:px-28 p-5">
-                <div class="md:col-span-6 md:ml-12">
-                    <p>Estou diponível para novos projetos.</p>
-                    <p>Entre em contato e marcamos uma conversa.</p>
-                </div>
-                <div class="md:col-span-6 flex-col mt-6 md:mt-0 flex gap-2 md:gap-3">
-                    <a href="mailto:diegocflausino@gmail.com" class="hover:text-blue-500"><img src="./assets/icon-gmail.png" class="inline-block size-4 md:size-6" alt=""> diegocflausino@gmail.com</a>
-                    <a href="https://api.whatsapp.com/send/?phone=14997754810&type=phone_number&app_absent=0" target="_blank" class="hover:text-blue-500"><img src="./assets/icon-whatsapp.png" class="inline-block size-4 md:size-6" alt=""> (14) 99775-4810</a>
-                </div>
+    <!-- Contatos -->
+    <footer id="contatos" class="w-full bg-black text-white">
+        <div class="container grid grid-cols-1 md:grid-cols-12 py-16 md:px-28 p-5">
+            <div class="md:col-span-6 md:ml-12">
+                <p>Estou diponível para novos projetos.</p>
+                <p>Entre em contato e marcamos uma conversa.</p>
             </div>
-        </footer>
+            <div class="md:col-span-6 flex-col mt-6 md:mt-0 flex gap-2 md:gap-3">
+                <a href="mailto:diegocflausino@gmail.com" class="hover:text-blue-500"><img src="./assets/icon-gmail.png"
+                        class="inline-block size-4 md:size-6" alt=""> diegocflausino@gmail.com</a>
+                <a href="https://api.whatsapp.com/send/?phone=14997754810&type=phone_number&app_absent=0"
+                    target="_blank" class="hover:text-blue-500"><img src="./assets/icon-whatsapp.png"
+                        class="inline-block size-4 md:size-6" alt=""> (14) 99775-4810</a>
+            </div>
+        </div>
+    </footer>
 
-        <!-- Foguete -->
-        <section class="fixed bottom-4 right-3" data-aos="zoom-in-up" data-aos-delay="200">
-            <img id="inicio" src="./assets/foguete.png" class="w-[80px] h-[80px] cursor-pointer" alt="">
-        </section>
-    
+    <!-- Foguete -->
+    <section class="fixed bottom-4 right-3" data-aos="zoom-in-up" data-aos-delay="200">
+        <img id="inicio" src="./assets/foguete.png" class="w-[80px] h-[80px] cursor-pointer" alt="">
+    </section>
+
 
     <script src="script.js"></script>
 </body>
+
 </html>
